@@ -15,7 +15,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            
         }
         h2 {
             text-align: center;
@@ -34,11 +33,6 @@
             line-height: 1.6;
             text-align: center;
         }
-        a {
-    display: block; /* This ensures that the link takes up the full width available */
-    text-align: center; /* Centers the text within the link */
-}
-
         .links-container {
             margin-top: 20px;
             display: flex;
@@ -51,24 +45,46 @@
         .link:hover {
             transform: scale(1.1);
         }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #FFD700;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #FFC107;
+        }
+        .fa {
+            text-align: center;
+            line-height: 1.6;
+        }
     </style>
 </head>
 <body>
-    
     <div class="main-container">
         <h1>About Me</h1>
-        <p>Typical luau user. I code, alot.</p>
-        <h2>Projects im working on</h2>
-        <p>- Bee Hub (Private)</p>
-        <a href="https://raw.githubusercontent.com/ncmq/solsrng/main/main">- Sol's RNG but as a script</a>
+        <p>Typical luau user. I code, a lot.</p>
+        <p>I use: C++, C#, C, Luau, VB, Batch, Python</p>
         <div class="links-container">
             <a href="https://www.youtube.com/channel/UCWbE-PH9i6BdFMC7zXAc9Ig" class="link">
                 <img src="./img/yt1.png" alt="YouTube">
             </a>
             <a href="https://github.com/ncmq" class="link">
-                <img src="./img/git.png" alt="YouTube">
+                <img src="./img/git.png" alt="GitHub">
             </a>
+        </div>
+        <div class="button-container">
+            <a href="projects.html" class="button">Projects</a>
         </div>
     </div>
 </body>
 </html>
+
